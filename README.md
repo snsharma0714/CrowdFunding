@@ -1,55 +1,39 @@
-## Getting Started
+# 💸 Decentralized Crowdfunding Platform
 
-Create a project using this example:
+A **fully decentralized** Web3 crowdfunding platform that allows users to create campaigns, donate Ethereum using MetaMask, and view all transactions on the blockchain — ensuring **complete transparency** with no intermediaries involved. 🌍🔗
 
-```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
-```
+---
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+## 🚀 Features
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
+- 🧾 Create & manage campaigns with title, description, target amount, and image
+- 💸 Donate ETH to campaigns directly using MetaMask wallet
+- 🔍 Explore live campaigns in real-time
+- 🔐 All donations and campaign data stored on the blockchain
+- 📱 Clean, responsive UI built with Tailwind CSS
+- 🌐 Deployed on Sepolia Ethereum testnet
 
-## Building the project
+---
 
-After any changes to the contract, run:
+## 🧰 Tech Stack
 
-```bash
-npm run build
-# or
-yarn build
-```
+- **Frontend:** React.js ⚛️ + Tailwind CSS 🎨  
+- **Smart Contract:** Solidity 💻  
+- **Blockchain:** Ethereum (Sepolia Testnet) 🌐  
+- **Wallet Integration:** MetaMask 🦊  
+- **Interaction:** Ethers.js 🔌  
+- **Testing & Deployment:** Hardhat 🛠️  
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
+---
 
-## Deploying Contracts
+## 🦊 Getting Started
 
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
+### Prerequisites
 
-```bash
-npm run deploy
-# or
-yarn deploy
-```
+- Node.js
+- MetaMask extension
+- Sepolia ETH in your MetaMask wallet (use a faucet)
 
-> [!IMPORTANT]
-> This requires a secret key to make it work. Get your secret key [here](https://thirdweb.com/dashboard/settings/api-keys).
-> Pass your secret key as a value after `-k` flag.
-> ```bash
-> npm run deploy -- -k <your-secret-key>
-> # or
-> yarn deploy -k <your-secret-key>
+### Clone the repo
 
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+project link : https://flourishing-mooncake-913d7c.netlify.app/
